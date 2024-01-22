@@ -5,6 +5,8 @@
 </script>
 
 <main>
+  <div class="test-directive-import"></div>
+
   <div>
     <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
       <img src={viteLogo} class="logo" alt="Vite Logo" />
@@ -29,6 +31,8 @@
 </main>
 
 <style>
+  @import "./test-directive-import.css";
+
   .logo {
     height: 6em;
     padding: 1.5em;
